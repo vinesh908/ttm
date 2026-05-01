@@ -1,4 +1,9 @@
 {
+  "homepage": "https://vinesh908.github.io/ttm/",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
   "name": "team-task-manager",
   "version": "1.0.0",
   "description": "Full-stack team task manager with role-based access",
